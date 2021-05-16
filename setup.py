@@ -2,9 +2,6 @@ from setuptools import setup, find_packages
 
 with open("README.md", "r") as rd:
     long_description = rd.read()
-with open("requirements.txt", "r") as req:
-    requirements = req.readlines()
-    print(requirements)
 setup(
     name="github-info.py",
     version="1.0.0",
